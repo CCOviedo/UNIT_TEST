@@ -47,7 +47,7 @@ namespace UNIT_TEST.Controllers
         public ActionResult Index()
         {
             List<Productos> productos = this.GetProductos();
-            return View();
+            return View(productos);
         }
 
         public ActionResult Vistas()
